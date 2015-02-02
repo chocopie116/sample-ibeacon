@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B79B26B51A7FA7930005FD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79B26B41A7FA7930005FD14 /* AppDelegate.swift */; };
+		B79B26B71A7FA7930005FD14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79B26B61A7FA7930005FD14 /* ViewController.swift */; };
+		B79B26BA1A7FA7930005FD14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79B26B81A7FA7930005FD14 /* Main.storyboard */; };
+		B79B26BC1A7FA7930005FD14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79B26BB1A7FA7930005FD14 /* Images.xcassets */; };
+		B79B26BF1A7FA7930005FD14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B79B26BD1A7FA7930005FD14 /* LaunchScreen.xib */; };
+		B79B26CB1A7FA7930005FD14 /* Ajiting_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79B26CA1A7FA7930005FD14 /* Ajiting_ClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79B26C51A7FA7930005FD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79B26A71A7FA7930005FD14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79B26AE1A7FA7930005FD14;
+			remoteInfo = "Ajiting-Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B79B26AF1A7FA7930005FD14 /* Ajiting-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ajiting-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79B26B31A7FA7930005FD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79B26B41A7FA7930005FD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B79B26B61A7FA7930005FD14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79B26B91A7FA7930005FD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B79B26BB1A7FA7930005FD14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B79B26BE1A7FA7930005FD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B79B26C41A7FA7930005FD14 /* Ajiting-ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ajiting-ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79B26C91A7FA7930005FD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79B26CA1A7FA7930005FD14 /* Ajiting_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajiting_ClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79B26AC1A7FA7930005FD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79B26C11A7FA7930005FD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79B26A61A7FA7930005FD14 = {
+			isa = PBXGroup;
+			children = (
+				B79B26B11A7FA7930005FD14 /* Ajiting-Client */,
+				B79B26C71A7FA7930005FD14 /* Ajiting-ClientTests */,
+				B79B26B01A7FA7930005FD14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79B26B01A7FA7930005FD14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79B26AF1A7FA7930005FD14 /* Ajiting-Client.app */,
+				B79B26C41A7FA7930005FD14 /* Ajiting-ClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79B26B11A7FA7930005FD14 /* Ajiting-Client */ = {
+			isa = PBXGroup;
+			children = (
+				B79B26B41A7FA7930005FD14 /* AppDelegate.swift */,
+				B79B26B61A7FA7930005FD14 /* ViewController.swift */,
+				B79B26B81A7FA7930005FD14 /* Main.storyboard */,
+				B79B26BB1A7FA7930005FD14 /* Images.xcassets */,
+				B79B26BD1A7FA7930005FD14 /* LaunchScreen.xib */,
+				B79B26B21A7FA7930005FD14 /* Supporting Files */,
+			);
+			path = "Ajiting-Client";
+			sourceTree = "<group>";
+		};
+		B79B26B21A7FA7930005FD14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79B26B31A7FA7930005FD14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B79B26C71A7FA7930005FD14 /* Ajiting-ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B79B26CA1A7FA7930005FD14 /* Ajiting_ClientTests.swift */,
+				B79B26C81A7FA7930005FD14 /* Supporting Files */,
+			);
+			path = "Ajiting-ClientTests";
+			sourceTree = "<group>";
+		};
+		B79B26C81A7FA7930005FD14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79B26C91A7FA7930005FD14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79B26AE1A7FA7930005FD14 /* Ajiting-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79B26CE1A7FA7930005FD14 /* Build configuration list for PBXNativeTarget "Ajiting-Client" */;
+			buildPhases = (
+				B79B26AB1A7FA7930005FD14 /* Sources */,
+				B79B26AC1A7FA7930005FD14 /* Frameworks */,
+				B79B26AD1A7FA7930005FD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ajiting-Client";
+			productName = "Ajiting-Client";
+			productReference = B79B26AF1A7FA7930005FD14 /* Ajiting-Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B79B26C31A7FA7930005FD14 /* Ajiting-ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79B26D11A7FA7930005FD14 /* Build configuration list for PBXNativeTarget "Ajiting-ClientTests" */;
+			buildPhases = (
+				B79B26C01A7FA7930005FD14 /* Sources */,
+				B79B26C11A7FA7930005FD14 /* Frameworks */,
+				B79B26C21A7FA7930005FD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79B26C61A7FA7930005FD14 /* PBXTargetDependency */,
+			);
+			name = "Ajiting-ClientTests";
+			productName = "Ajiting-ClientTests";
+			productReference = B79B26C41A7FA7930005FD14 /* Ajiting-ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79B26A71A7FA7930005FD14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Voyage Group";
+				TargetAttributes = {
+					B79B26AE1A7FA7930005FD14 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B79B26C31A7FA7930005FD14 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B79B26AE1A7FA7930005FD14;
+					};
+				};
+			};
+			buildConfigurationList = B79B26AA1A7FA7930005FD14 /* Build configuration list for PBXProject "Ajiting-Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79B26A61A7FA7930005FD14;
+			productRefGroup = B79B26B01A7FA7930005FD14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79B26AE1A7FA7930005FD14 /* Ajiting-Client */,
+				B79B26C31A7FA7930005FD14 /* Ajiting-ClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79B26AD1A7FA7930005FD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79B26BA1A7FA7930005FD14 /* Main.storyboard in Resources */,
+				B79B26BF1A7FA7930005FD14 /* LaunchScreen.xib in Resources */,
+				B79B26BC1A7FA7930005FD14 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79B26C21A7FA7930005FD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79B26AB1A7FA7930005FD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79B26B71A7FA7930005FD14 /* ViewController.swift in Sources */,
+				B79B26B51A7FA7930005FD14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79B26C01A7FA7930005FD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79B26CB1A7FA7930005FD14 /* Ajiting_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B79B26C61A7FA7930005FD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79B26AE1A7FA7930005FD14 /* Ajiting-Client */;
+			targetProxy = B79B26C51A7FA7930005FD14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B79B26B81A7FA7930005FD14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79B26B91A7FA7930005FD14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B79B26BD1A7FA7930005FD14 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79B26BE1A7FA7930005FD14 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79B26CC1A7FA7930005FD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B79B26CD1A7FA7930005FD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79B26CF1A7FA7930005FD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ajiting-Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B79B26D01A7FA7930005FD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ajiting-Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B79B26D21A7FA7930005FD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ajiting-ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ajiting-Client.app/Ajiting-Client";
+			};
+			name = Debug;
+		};
+		B79B26D31A7FA7930005FD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ajiting-ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ajiting-Client.app/Ajiting-Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79B26AA1A7FA7930005FD14 /* Build configuration list for PBXProject "Ajiting-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79B26CC1A7FA7930005FD14 /* Debug */,
+				B79B26CD1A7FA7930005FD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79B26CE1A7FA7930005FD14 /* Build configuration list for PBXNativeTarget "Ajiting-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79B26CF1A7FA7930005FD14 /* Debug */,
+				B79B26D01A7FA7930005FD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B79B26D11A7FA7930005FD14 /* Build configuration list for PBXNativeTarget "Ajiting-ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79B26D21A7FA7930005FD14 /* Debug */,
+				B79B26D31A7FA7930005FD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79B26A71A7FA7930005FD14 /* Project object */;
+}
